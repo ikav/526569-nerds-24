@@ -110,10 +110,26 @@
         <section class="clients" >
           <h2 class="visually-hidden">Наши клиенты</h2>
           <ul class="clients-list">
-            <a href="#"><li class="clients-item">HTML Academy</li></a>
-            <a href="#"><li class="clients-item">Barbershop Borodinsky</li></a>
-            <a href="#"><li class="clients-item">Pink</li></a>
-            <a href="#"><li class="clients-item">Mishka</li></a>
+            <li class="clients-item">
+              <a href="https://htmlacademy.ru/intensive/htmlcss">
+                <img src="img/logo-htmlacademy.png" width="199" height="68" alt="Логотип HTML Academy">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="img/logo-borodinski.png" width="209" height="87" alt="Логотип Borodinsky">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="img/logo-pink.png" width="185" height="52" alt="Логотип Pink">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="img/logo-mishka.png" width="173" height="84" alt="Логотип Mishka">
+              </a>
+            </li>
           </ul>
         </section>
 
@@ -137,7 +153,7 @@
         <h2>Карта</h2>
         <figure class="map-img">
           <a href="#">
-            <img src="img/map.jpg" width="1200" height="300" alt="Карта расположения">
+            <img src="img/map.jpg" width="1200" height="300" alt="Дизайн-студия Нердс. Адрес: 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8. Телефон: +7 (812) 275-75-75">
           </a>
         </figure>
       </section>
@@ -155,5 +171,34 @@
       <h3 class="footer-friendship">Давайте дружить, это выгодно!</h3>
       <p class="footer-discount">Скидка 10% для друзей из социальных сетей.</p>
     </footer>
+
+    <section class="modal modal-write-us">
+      <h2>Напишите нам</h2>
+      <form class="write-us" method="post" action="https://echo.htmlacademy.ru">
+        <div class="modal-container">
+          <div class="write-us-list-inputs">
+            <div class="write-us-field name">
+              <label class="write-us-name" for="write-us-name">Ваше имя:</label>
+              <input id="write-us-name" type="text" name="write-us-name" placeholder="Представьтесь, пожалуйста">
+            </div>
+            <div class="write-us-field email">
+              <label class="write-us-email" for="write-us-email">Ваш email:</label>
+              <input  id="write-us-email" type="email" name="write-us-email" placeholder="Для отправки ответа">
+            </div>
+          </div>
+          <div class="write-us-message">
+            <label for="write-us-message">Текст письма:</label>
+            <textarea class="write-us-letter" name="write-us-message" id="write-us-message" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-container">
+            <button class="button write-us-button" type="submit">Отправить</button>
+          </div>
+        </div>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
   </body>
 </html>
