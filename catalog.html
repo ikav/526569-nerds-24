@@ -29,16 +29,78 @@
 
       <section class="catalog">
         <h1>Магазин готовых шаблонов</h1>
-
+        <!-- Форма фильтрации (стоимость, сетка, особенности) -->
         <section class="filters">
-          <h2 class="visually-hidden">Фильтр готовых шаблонов</h2>
-          <!-- Здесь будет форма -->
+          <h2 class="visually-hidden" >Фильтр готовых шаблонов</h2>
+          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset>
+              <legend class="filter-legend-price">Стоимость:</legend>
+              <!-- Для реализации ползунков с двух сторон -->
+              <div class="filter-price-toggle">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <div class="filter-price-range">
+                <input class="filter-price-input-from" type="text" value="0">
+                <input class="filter-price-input-to" type="text" value="15000">
+              </div>
+            </fieldset>
+
+            <fieldset class="filter-grid">
+              <legend class="filter-legend-grid">Сетка:</legend>
+              <ul class="filter-list-grid">
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="filter-grid" id="filter-adaptive" checked>
+                  <label for="filter-adaptive">Адаптивная</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="filter-grid" id="filter-fixed">
+                  <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="filter-grid" id="filter-liquid">
+                  <label for="filter-liquid">Резиновая</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <legend class="filter-legend-features">Особенности:</legend>
+              <ul class="filter-list-features">
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-slider" id="filter-slider" checked>
+                  <label for="filter-slider">Слайдер</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-advantages" id="filter-advantages">
+                  <label for="filter-advantages">Блок преимуществ</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-news" id="filter-news" checked>
+                  <label for="filter-news">Новости</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-galary" id="filter-galary">
+                  <label for="filter-galary">Галерея</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-cart" id="filter-cart">
+                  <label for="filter-cart">Корзина</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <button class="filter-apply-button" type="submit" >Показать</button>
+          </form>
         </section>
 
         <!-- Сортировка товаров -->
         <section class="sort">
           <div class="catalog-sort-bar">
-            <h3 class="catalog-sort-header">Сортировка:</h3>
+            <h3 class="catalog-sort-header">Сортировать:</h3>
             <ul class="catalog-sort-list-category">
               <li class="sort-price sort-active"><a href="#">По цене</a></li>
               <li class="sort-type"><a href="#">По типу</a></li>
