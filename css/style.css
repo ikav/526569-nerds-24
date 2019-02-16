@@ -14,6 +14,14 @@ a {
   text-decoration: none;
 }
 
+.nerds-logo:hover {
+  opacity: 0.8;
+}
+
+.nerds-logo:focus {
+  opacity: 0.3;
+}
+
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
@@ -25,7 +33,18 @@ a {
 }
 
 .slider-list {
+  list-style: none;
   background-color: #eeeeee;
+}
+
+.slider-slogan {
+  font-size: 55px;
+  font-weight: 700px;
+}
+
+.slider-description {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .site-navigation,
@@ -46,4 +65,157 @@ a {
 .site-navigation a:focus,
 .user-navigation a:focus {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-item h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.services-item p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.skills {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.skills-slogan {
+  font-size: 45px;
+}
+
+.skills b {
+  text-transform: uppercase;
+}
+
+.advantages {
+  font-size: 16px;
+}
+
+.advantages-slogan {
+  text-transform: uppercase;
+}
+
+.advantages-percent {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.advantages-description {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.clients-list {
+  list-style: none;
+}
+
+.clients-item {
+  text-align: center;
+}
+
+.clients-item a {
+  opacity: 0.2;
+}
+
+.clients-item a:hover {
+  opacity: 1;
+}
+
+.clients-item a:focus {
+  opacity: 0.1;
+}
+
+.write-us-name {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.write-us-address,
+.write-us-phone {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-friendship {
+  font-size: 36px;
+}
+
+.footer-discount {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+}
+
+.button.grey {
+  color: #000000;
+}
+
+.button-text:active {
+  opacity: 0.3;
+}
+
+.red {
+  background-color: #fb565a;
+}
+
+.red:hover {
+  background-color: #e74246;
+}
+
+.red:active {
+  background-color: #d7373b;
+}
+
+.green {
+  background-color: #00ca74;
+}
+
+.green:hover {
+  background-color: #00bc6c;
+}
+
+.green:active {
+  background-color: #00aa62;
+}
+
+.gold {
+  background-color: #efc84a;
+}
+
+.gold:hover {
+  background-color: #eab534;
+}
+
+.gold:active {
+  background-color: #e5a722;
+}
+
+.grey {
+  background-color: #eeeeee;
+}
+
+.grey:hover {
+  background-color: #dfdfdf;
+}
+
+.grey:active {
+  background-color: #d5d5d5;
 }

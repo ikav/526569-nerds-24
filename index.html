@@ -10,7 +10,7 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a href="index.html" class="main-header-logo">
+        <a class="nerds-logo" href="index.html" class="main-header-logo">
           <img src="img/nerds-logo.svg" width="160" height="65" alt="Дизайн-студия 'Нёрдс'">
         </a>
         <ul class="site-navigation">
@@ -26,7 +26,7 @@
     </header>
     <main >
 
-      <!--Раздел-центровщик-->
+      <!-- Центровщик -->
       <section class="container">
 
         <h1 class="visually-hidden">Дизайн-студия "Нёрдс"</h1>
@@ -49,20 +49,20 @@
           <!-- Содержимой слайдов -->
           <ul class="slider-list">
             <li class="slider-item">
-              <b>Долго, дорого, скрупулезно</b>
-              <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+              <p class="slider-slogan">Долго, дорого, скрупулезно</p>
+              <p class="slider-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
               <a href="#">Узнать больше</a>
               <img src="img/slide1.png" width="698" height="413" alt="Нердс делает свою работу очень скурпулезно">
             </li>
             <li class="slider-item">
-              <b>Любим математику как никто другой</b>
-              <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+              <p class="slider-slogan">Любим математику как никто другой</p>
+              <p class="slider-description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
               <a href="#">Узнать больше</a>
               <img src="img/slide2.png" width="663" height="430" alt="Нердс любит математику и делает точный расчет">
             </li>
             <li class="slider-item">
-              <b>Только ночь, только хардкор</b>
-              <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+              <p class="slider-slogan">Только ночь, только хардкор</p>
+              <p class="slider-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
               <a href="#">Узнать больше</a>
               <img src="img/slide3.png" width="759" height="411" alt="Сотрудники Нердс очень креативны и часто работают ночью">
             </li>
@@ -76,17 +76,17 @@
             <li class="services-item">
               <h3>Веб-сайты</h3>
               <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-              <a class="button" href="#">Заказать</a>
+              <a class="button red" href="#"><span class="button-text">Заказать</span></a>
             </li>
             <li class="services-item">
               <h3>Приложения</h3>
               <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-              <a class="button" href="#">Заказать</a>
+              <a class="button green" href="#"><span class="button-text">Заказать</span></a>
             </li>
             <li class="services-item">
               <h3>Презентации</h3>
               <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-              <a class="button" href="#">Заказать</a>
+              <a class="button gold" href="#"><span class="button-text">Заказать</span></a>
             </li>
           </ul>
         </section>
@@ -94,7 +94,7 @@
         <!--Умения-->
         <section class="skills">
           <h2 class="visually-hidden">Наши преимущества</h2>
-          <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
+          <p class="skills-slogan">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
           <b>Выполняем заказы на разработку:</b>
           <ul class="skills-list">
@@ -109,12 +109,12 @@
           <div class="logo-nerds" ></div>
           <h2 class="advantages-slogan">с 2004 года любим точность во всем:</h2>
           <table>
-            <tr>
+            <tr class="advantages-percent">
               <td>146%</td>
               <td>100%</td>
               <td>50%</td>
             </tr>
-            <tr>
+            <tr class="advantages-description">
               <td>Уровень самоотдачи</td>
               <td>Соблюдение сроков</td>
               <td>Минимальная предоплата</td>
@@ -152,7 +152,7 @@
         <!--Контакты и "Напишите нам"-->
         <section class="write-us">
           <h2>Напишите нам</h2>
-          <h3 class="white-us-name">NЁRDS DESIGN STUDIO</h3>
+          <h3 class="write-us-name">NЁRDS DESIGN STUDIO</h3>
           <p class="write-us-address">
               191186, Санкт-Петербург,<br>
               ул. Б. Конюшенная, д. 19/8<br>
@@ -160,7 +160,7 @@
           <p class="write-us-phone">
               тел. +7 (812) 275-75-75
           </p>
-          <a class="button" href="write-us.html">Напишите нам</a>
+          <a class="button red" href="write-us.html"><span class="button-text">Напишите нам</span></a>
         </section>
       </section>
 
@@ -209,7 +209,7 @@
         </div>
         <div class="modal-footer">
           <div class="modal-container">
-            <button class="button write-us-button" type="submit">Отправить</button>
+            <button class="button red write-us-button" type="submit"><span class="button-text">Отправить</span></button>
           </div>
         </div>
       </form>
