@@ -152,6 +152,67 @@ a {
   line-height: 18px;
 }
 
+.filters fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filters ul {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+fieldset legend,
+.catalog-sort-header {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.filter-list-grid,
+.filter-list-features,
+.catalog-sort-list-category,
+.catalog-sort-list-order,
+.products-list,
+.footer-social {
+  list-style: none;
+}
+
+.fiters-input {
+  color: #283136;
+}
+
+.filter-input:disabled + label {
+  color: #283136;
+  opacity: 0.3;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.product-about {
+  background-color: #eeeeee;
+}
+
+.product-title {
+  font-size: 18px;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666
+}
+
+.pagination-list {
+  list-style: none;
+}
+
 .button {
   font: inherit;
 
@@ -218,4 +279,32 @@ a {
 
 .grey:active {
   background-color: #d5d5d5;
+}
+
+.modal-write-us {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.write-us-header {
+  font-size: 45px;
+}
+.modal-write-us input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #d7dcde;
+}
+
+.modal-write-us input:hover {
+  border-color: #b4b9bb;
+}
+
+.modal-write-us input:focus {
+  border-color: #000000;
+}
+
+.write-us-list-inputs label,
+.write-us-message label {
+  font-size: 16px;
+  font-weight: 700;
 }
