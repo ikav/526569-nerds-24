@@ -213,6 +213,30 @@ fieldset legend,
   list-style: none;
 }
 
+.pagination-list a {
+  color: #000000;
+}
+
+.pagination-list a:active {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #bfbfbf;
+}
+
+.pagination-item.pagination-item-current {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bfbfbf;
+}
+
+.pagination-item.pagination-item-current:hover {
+  background-color: #ffffff;
+}
+
+/***********/
+/* Buttons */
+/***********/
 .button {
   font: inherit;
 
@@ -281,6 +305,11 @@ fieldset legend,
   background-color: #d5d5d5;
 }
 
+
+
+/***********/
+/* Pop up  */
+/***********/
 .modal-write-us {
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
 }
