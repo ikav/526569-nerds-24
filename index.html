@@ -9,30 +9,30 @@
   </head>
   <body>
     <header class="main-header">
-      <nav class="main-navigation">
-        <a class="nerds-logo" href="index.html" class="main-header-logo">
-          <img src="img/nerds-logo.svg" width="160" height="65" alt="Дизайн-студия 'Нёрдс'">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li class="cart"><a href="#">Корзина</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main >
+      <div class="main-header-wrapper">
 
-      <!-- Центровщик -->
-      <section class="container">
+        <!-- Основная навигация -->
+        <nav class="main-navigation">
+          <div class="container">
+            <a class="nerds-logo" href="index.html" class="main-header-logo">
+              <img src="img/nerds-logo.svg" width="160" height="65" alt="Дизайн-студия 'Нёрдс'">
+            </a>
+            <ul class="site-navigation">
+              <li><a href="#">Студия</a></li>
+              <li><a href="#">Клиенты</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li class="cart"><a href="#">Корзина</a></li>
+            </ul>
+          </div>
+        </nav>
 
         <h1 class="visually-hidden">Дизайн-студия "Нёрдс"</h1>
 
         <!--Слайдер-->
-        <section class="slider">
+        <section class="slider container">
           <h2 class="visually-hidden">Слайдер</h2>
           <!-- Переключатель слайдов -->
           <ul class="slide-switcher">
@@ -49,26 +49,37 @@
           <!-- Содержимой слайдов -->
           <ul class="slider-list">
             <li class="slider-item">
-              <p class="slider-slogan">Долго, дорого, скрупулезно</p>
-              <p class="slider-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-              <a href="#">Узнать больше</a>
+              <div class="slider-text-wrapper">
+                <p class="slider-slogan">Долго, дорого, скрупулезно</p>
+                <p class="slider-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                <a class="button red" href="#">Узнать больше</a>
+              </div>
               <img src="img/slide1.png" width="698" height="413" alt="Нердс делает свою работу очень скурпулезно">
             </li>
             <li class="slider-item">
-              <p class="slider-slogan">Любим математику как никто другой</p>
-              <p class="slider-description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-              <a href="#">Узнать больше</a>
+              <div class="slider-text-wrapper">
+                <p class="slider-slogan">Любим математику как никто другой</p>
+                <p class="slider-description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+                <a class="button red" href="#">Узнать больше</a>
+              </div>
               <img src="img/slide2.png" width="663" height="430" alt="Нердс любит математику и делает точный расчет">
             </li>
             <li class="slider-item">
-              <p class="slider-slogan">Только ночь, только хардкор</p>
-              <p class="slider-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-              <a href="#">Узнать больше</a>
+              <div class="slider-text-wrapper">
+                <p class="slider-slogan">Только ночь, только хардкор</p>
+                <p class="slider-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+                <a class="button red" href="#">Узнать больше</a>
+              </div>
               <img src="img/slide3.png" width="759" height="411" alt="Сотрудники Нердс очень креативны и часто работают ночью">
             </li>
           </ul>
         </section>
+      </div>
+    </header>
 
+    <main >
+      <!-- Центровщик -->
+      <section class="container">
         <!--Услуги-->
         <section class="services">
           <h2 class="visually-hidden">Услуги</h2>
